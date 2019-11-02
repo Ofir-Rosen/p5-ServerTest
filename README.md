@@ -60,12 +60,15 @@ If you don't know the file path
 
 ///////////////
 
-whats happening???
+<b><h3>whats happening???</h3></b>
+
 the python code is running a local server on your computer that basically only contains 1 number. 
+
+
 To change this number edit line 15 in the simpleServer.py file. 
 
 'self.wfile.write("0")'
-                   ^This is the number being sent by the server
+
 
 if you want to test that the code is working/giving you different results
 
@@ -80,8 +83,7 @@ The P5 Code (sketch.js) is looking at that server and reading that number. Depen
 in line 9 the section "url = "http://localHost:8080";" sets the URL for the server. 
 This can be a web page but because our Python code runs a server on port 8080 we're looking there. 
 
-if the sketch.js looks at this server and recieves a 0 it will show a blank screen, 
-if the sketch.js recieves any other numbers it will loop an example video file that can be found in the assets folder.
+	- if the sketch.js looks at this server and recieves a 0 it will show a blank screen, 
+	- if the sketch.js recieves any other numbers it will loop an example video file that can be found in the assets folder.
 if you want to change this video make sure to change line 22 of the sketch.js file to reflect the new file name
 	 fingers = createVideo('assets/fingers.mov');
-  Variable^                          ^Folder/FileName
