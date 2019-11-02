@@ -6,28 +6,47 @@ Ver 1.0:
 
 \\\\\\\\\\\\\\\\
 
-SETUP
+<b><h2>SETUP</h2></b>
 
 \\\\\\\\\\\\\\\\\
-needed - Python 2, and P5.js. 
-Python link - https://www.python.org/downloads/release/python-2717/
+<b><h4>REQUIRED</b></h4>
+	
+	-Python 2, 
+	
+	-P5.js. 
+	
 
-P5.js - https://github.com/processing/p5.js/releases/download/0.10.2/p5.zip
+
+<b>Python download link</b> - https://www.python.org/downloads/release/python-2717/
+
+<b>P5.js download link</b> - https://github.com/processing/p5.js/releases/download/0.10.2/p5.zip
+
+
 Once you download that zip file,
- on MAC: 
-	- open _MACOSX folder
-	- then drag the 2 items inside into wherever you want to keep your future p5 projects on your computer. 
-	- drag the p5-ServerTest folder from this repository into the p5 folder you just extracted. 
-	- drag the whole folder into atom
-	- hit packages > atom-live-server >  run live server
- WINDOWS:
-	- extract the p5 folder form the zip folder
-	follow the rest of the steps exactly the same way as MAC OSX. 
+<b><h3>MAC</h3></b>: 
 
-For python, once you install python 2 you should just be able to run the simpleServer.py file using python. 
+	- open _MACOSX folder (if its not there just follow the rest of the steps)
+	
+	- then drag the 2 items inside into wherever you want to keep your future p5 projects on your computer. 
+	
+	- drag the p5-ServerTest folder from this repository into the p5 folder you just extracted. 
+	
+	- drag the whole folder into atom
+	
+	- hit packages > atom-live-server >  run live server
+ <b><h3>WINDOWS</h3></b>:
+	
+	- extract the p5 folder form the zip folder
+	
+	- follow the rest of the steps exactly the same way as MAC OSX. 
+
+<h3>For the python server:</h3>
+once you install python 2 you should just be able to run the simpleServer.py file using python launcher. 
+
 if not, open terminal or command line and type 
 
 python [PATH TO THE FILE] 
+
 
 then hit enter. 
 
@@ -37,7 +56,7 @@ If you don't know the file path
 
 ////////////////
 
-USE/EXPLANATION
+<b><h2>USE/EXPLANATION</h2></b>
 
 ///////////////
 
