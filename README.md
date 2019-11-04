@@ -104,7 +104,9 @@ need the internet for anything.
 	- Make sure to set up port forwarding in your router for IP address 192.168.0.177 on port 8080,
 		(or whatever IP and Port are set on lines 28 and 33 the of the arduino server code.)
 	- I've added a screenshot of my port forwarding settings into this repository.
-	- Attach your ethernet shield to your arduino and then upload the server code in this repository onto the board.
+	- Attach your ethernet shield to your arduino 
+	- Plug your ethernet cable into one of the LAN ports in your router, and into your Arduino ethernet shield
+	- upload the server code in this repository onto the board.
 	- Start your P5 File (DO NOT RUN THE PYTHON FILE)
 
 
