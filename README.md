@@ -87,3 +87,29 @@ This can be a web page but because our Python code runs a server on port 8080 we
 	- if the sketch.js recieves any other numbers it will loop an example video file that can be found in the assets folder.
 if you want to change this video make sure to change line 22 of the sketch.js file to reflect the new file name
 	 fingers = createVideo('assets/fingers.mov');
+
+
+//////////////////////////
+
+<b><h2>GETTING ARDUINO TO WORK</h2></b>
+
+/////////////////////////
+
+<h4>ADVICE!</h4>
+I'd reccomend getting a cheap router to jam into your setup so you can easily mess with port forewarding settings and not have to deal with
+internet connection or web hosting. That'll honestly be your best bet if you don't actually
+need the internet for anything. 
+
+ <b><h3>RUN ARDUINO FILE</h3></b>:
+	- Make sure to set up port forewarding in your router for IP address 192.168.0.177 on port 8080, 
+		(or whatever IP and Port are set on lines 28 and 33 the of the arduino server code.)
+	- I've added a screenshot of my port forewarding settings into this repository. 
+	- Attach your ethernet shield to your arduino and then upload the server code in this repository onto the board. 
+	- Start your P5 File (DO NOT RUN THE PYTHON FILE)
+
+
+You should now see the video toggle on and off approximately every second
+theres a bit of a delay between the console in dev tools and the p5 sketch updating, I'm not entirely sure why but I will try and fix this.
+
+
+
